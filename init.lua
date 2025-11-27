@@ -894,7 +894,6 @@ require('lazy').setup({
       }
 
       -- Load the colorscheme here.
-      -- Like many other themes, this one has different styles, and you could load
       vim.cmd.colorscheme 'kanagawa'
     end,
   },
@@ -1012,9 +1011,6 @@ require('lazy').setup({
     },
   },
 })
-
--- Set the Kanagawa colorscheme after all plugins are loaded
-vim.cmd.colorscheme 'kanagawa'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
